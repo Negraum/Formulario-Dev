@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <title>Inscrição</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulário Dev</legend>
+            <div><input autocomplete="off" type="text" name="nome" placeholder="Digite seu nome"></div>
+            <div><input autocomplete="off" type="text" name="nome" placeholder="Exemplo@gmail.com"></div>
+
+            <div>
+                <select name="lista">
+                    <option disabled selected>Qual seu nível</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Sênior</option>
+                    <option>Master</option>
+                </select>
+            </div>
+
+            <h2>Qual área você trabalha</h2>
+
+        <div class="input">
+            <div>             
+                <input name="job" type="radio">Front-End
+            </div>
+
+            <div>
+                <input name="job" type="radio">Back-End
+            </div>
+
+            <div>
+                <input name="job" type="radio">Full-Stack
+            </div>
+        </div>
+
+        <div><textarea placeholder="Possui alguma observação ?"></textarea></div>
+
+        <div>
+            <input type="submit" name="acao" value="Enviar">
+        </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
